@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio | Khairunnisa Andini</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-[#0B0E1A] to-[#120F2E] text-white min-h-screen">
+
+  <!-- NAVBAR -->
+  <nav class="flex justify-between items-center px-10 md:px-20 py-6">
+    <h1 class="text-purple-500 font-bold text-xl">Nisa</h1>
+    <ul class="flex gap-6 text-gray-300">
+      <li>Home</li>
+      <li>About</li>
+      <li>Portfolio</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="flex flex-col md:flex-row items-center justify-between px-10 md:px-20 mt-16 gap-10">
+    <div class="max-w-xl">
+      <p class="text-purple-400 text-lg">Hello, I'm</p>
+      <h2 class="text-4xl md:text-5xl font-bold mt-2">
+        Khairunnisa Andini
+      </h2>
+      <p class="text-gray-400 mt-6 leading-relaxed">
+        Mahasiswa Teknik Informatika yang tertarik pada
+        data science, machine learning, dan pengembangan web.
+      </p>
+
+      <div class="mt-8 flex gap-4">
+        <a href="#" class="bg-purple-600 hover:bg-purple-700 px-6 py-3 rounded-lg">
+          Download CV
+        </a>
+        <a href="#portfolio" class="border border-purple-600 px-6 py-3 rounded-lg hover:bg-purple-600/20">
+          View Projects
+        </a>
+      </div>
+    </div>
+
+    <!-- FOTO -->
+    <div class="relative">
+      <div class="absolute inset-0 bg-purple-500 blur-3xl opacity-30 rounded-full"></div>
+      <img
+        src="https://via.placeholder.com/300"
+        class="relative w-64 h-64 md:w-72 md:h-72 rounded-full object-cover border-4 border-purple-500"
+        alt="Profile"
+      />
+    </div>
+  </section>
+
+</body>
+</html>
